@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New';
+    
+}
+
+#main-content {
+    display: none;
+}
+
+#welcome-screen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#enter-text {
+    margin-top: 20px;
+}
+
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    position: fixed;
+    opacity: 0.8;
+}
+
+#socials-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#socials-text {
+    font-size: 10px;
+
+}
+
+#column-mask {
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    width: 14.5%;
+    height: 2vh;
+    background-color: transparent;
+    transform: translateX(-50%);
+    z-index: 2;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+#scrolling-text-container {
+    white-space: nowrap;
+    overflow: hidden;
+    position: fixed;
+    bottom: 5%;
+    left: 43%;
+    right: 43%;
+    z-index: 1;
+}
+
+#scrolling-text {
+    color: white;
+    position: relative;
+    animation: scrollText 30s infinite linear;
+}
+
+
+#typing-container {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+
+#imageContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#image {
+  transform: translate(-50%, -50%) scale(0.5); /* Scale down the image by 70% and center it */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto; /* Maintain the image's aspect ratio */
+  height: auto;
+}
+
+#overlayText {
+  position: absolute;
+  top: 52%; /* Adjust the top position as needed */
+  left: 48%; /* Adjust the left position as needed */
+  color: black; /* Text color, adjust as needed */
+  font-size: 18px; /* Text size, adjust as needed */
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold; /* Text weight, adjust as needed */
+  font-style: italic;
+}
+
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-170%);
+    }
+}
+

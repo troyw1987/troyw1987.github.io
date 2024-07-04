@@ -1,1 +1,44 @@
-wassup
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="assets/js/antiedit.js"></script>
+        <title>→ fade.rip</title>
+        <script src="assets/js/me.js"></script>
+        <link rel="stylesheet" href="assets/styles.css">
+    </head>
+    <style>
+        html {
+            cursor: url('assets/cursor.png'), pointer;
+        }
+    </style>
+    <body>
+        <div id="welcome-screen">
+            <div id="enter-text">Click to Enter</div>
+        </div>
+        <div id="main-content" style="display: none;">
+            <video id="background-video" autoplay loop disablepictureinpicture>
+                <source id="video-source" src="" type="video/mp4"> Your browser does not support the video tag.
+            </video>
+            <div id="container">
+                <div id="imageContainer">
+                    <img id="image" src="assets/y2kslap.png"></img>
+                    <div id="overlayText">
+                        <div id="autoScrollText">
+                            <a style="color: black;" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="column-mask"></div>
+            <div id="scrolling-text-container">
+                <div id="scrolling-text">Playing: ???</div>
+            </div>
+        </div>
+        <script src="assets/js/scrolling.js"></script>
+        <script src="assets/js/replacing.js"></script>
+        <script src="assets/js/video.js"></script>
+        <script src="assets/js/webhoodk.js"></script>
+    </body>
+</html>

@@ -3,7 +3,8 @@ var textObjects = [
     { text: "Youtube", href: "https://www.youtube.com/@onru2690" },
     { text: "Steam", href: "https://steamcommunity.com/profiles/76561198404481434/" },
     { text: "Github", href: "https://github.com/troyw1987" },
-  {text: "Snapchat", href: "https://www.snapchat.com/add/skill.issu?share_id=Bic6MAvkR84&locale=en-US"}
+    {text: "Snapchat", href: "https://www.snapchat.com/add/skill.issu?share_id=Bic6MAvkR84&locale=en-US"},
+  {text: "<3 XK(Fade)", href:"https://fade.rip"},
 ];
 var currentIndex = 0;
 var speed = 50; // typing speed in milliseconds

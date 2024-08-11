@@ -4,7 +4,7 @@ var textObjects = [
     { text: "Steam", href: "https://steamcommunity.com/profiles/76561198404481434/" },
     { text: "Github", href: "https://github.com/troyw1987" },
     {text: "Snapchat", href: "https://www.snapchat.com/add/skill.issu?share_id=Bic6MAvkR84&locale=en-US"},
-  {text: "<3 XK(Fade)", href:"https://fade.rip"},
+  {text: "<3", href:"https://fade.rip"},
 ];
 var currentIndex = 0;
 var speed = 50; // typing speed in milliseconds
@@ -19,7 +19,7 @@ document.getElementById('welcome-screen').addEventListener('click', function() {
 document.getElementById('autoScrollText').addEventListener('click', function() {
   // Handle the click action, for example, you can open a link
   var textObject = textObjects[currentIndex];
-  window.open(textObject.href, '_blank'); // Open link in a new tab
+  window.open(textObject.href, '_self'); // Open link in the same tab
 });
 
 function startTyping() {

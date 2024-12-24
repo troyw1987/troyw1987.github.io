@@ -35,7 +35,7 @@ document.getElementById('welcome-screen').addEventListener('click', function() {
     video.src = currentVideo; // sets random video
     srollingText.textContent = "Playing: " + currentVideoScrollText;
 
-    video.volume = 0.05; // Set the volume to 25%
+    video.volume = 0.5; // Set the volume to 25%
 
 
     video.play();

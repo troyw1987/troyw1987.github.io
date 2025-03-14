@@ -16,12 +16,18 @@ scrolltextMap.set(3,"A.D.H.D - Kendrick Lamar");
 videoMap.set(4,"assets/videos/CAD.mp4") // Video 5
 scrolltextMap.set(4,"Crunk Aint' Dead - Duke Deuce");
 
-videoMap.set(5,"assets/videos/PUK.mp4")
+videoMap.set(5,"assets/videos/PUK.mp4") // video 6
 scrolltextMap.set(5,"Purple Kisses - A$AP Rocky")
 
-var randomNumberZeroToOne = Math.floor(Math.random()*6);
-var currentVideo = videoMap.get(randomNumberZeroToOne);
-var currentVideoScrollText = scrolltextMap.get(randomNumberZeroToOne) + " (song " + (randomNumberZeroToOne+1) +"/6)";
+videoMap.set(6,"assets/videos/BXP.mp4")
+scrolltextMap.set(6,"2AM - BigXthePlug") // video 7)
+
+
+var number_of_songs = videoMap.size
+
+var randomVideoNumber = Math.floor(Math.random()*number_of_songs);
+var currentVideo = videoMap.get(randomVideoNumber);
+var currentVideoScrollText = scrolltextMap.get(randomVideoNumber) + " (song " + (randomVideoNumber+1) +"/"+ number_of_songs +")";
 
 document.getElementById('welcome-screen').addEventListener('click', function() { // starts video
 

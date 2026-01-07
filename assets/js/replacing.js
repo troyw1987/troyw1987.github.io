@@ -1,11 +1,10 @@
 var textObjects = [
-  { text: "-->  ✕  <--", closing: true },
-  { text: "Discord", href: "https://discord.gg/UvYeczrSqs" },
-  { text: "Youtube", href: "https://www.youtube.com/@onru2690" },
   { text: "Steam", href: "https://steamcommunity.com/profiles/76561198404481434/" },
+  { text: "Discord", href: "https://discord.gg/UvYeczrSqs" },
   { text: "Github", href: "https://github.com/troyw1987" },
   { text: "Snapchat", href: "https://www.snapchat.com/add/skill.issu?share_id=Bic6MAvkR84&locale=en-US" },
-  { text: "fade.rip <3", href: "https://fade.rip" },
+  { text: "Whatsapp", href: "https://chat.whatsapp.com/JbDVpHRfQuUFcVZbkPB4i1" },
+  { text: "--> ✕  <--", closing: true },
 ];
 var currentIndex = 0;
 var speed = 50; // typing speed in milliseconds

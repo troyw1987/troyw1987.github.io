@@ -1,6 +1,6 @@
 var textObjects = [
   { text: "Steam", href: "https://steamcommunity.com/profiles/76561198404481434/" },
-  { text: "Discord", href: "https://discord.gg/UvYeczrSqs" },
+  { text: "Discord", href: "https://discord.gg/tSzqBrFUsq" },
   { text: "Github", href: "https://github.com/troyw1987" },
   { text: "Snapchat", href: "https://www.snapchat.com/add/skill.issu?share_id=Bic6MAvkR84&locale=en-US" },
   { text: "Whatsapp", href: "https://chat.whatsapp.com/JbDVpHRfQuUFcVZbkPB4i1" },

@@ -1,6 +1,6 @@
 
 # https://troyw1987.github.io/
 
-I worked on this hard fr.
+Personal website with visuals
 
 Thanks Fade!
